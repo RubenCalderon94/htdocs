@@ -40,6 +40,7 @@ switch ($num1) {
         break;
 }
 
+// Dia del mes igual pero 12 case
 
 
 ?>

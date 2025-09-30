@@ -40,4 +40,6 @@ if ($num1>$num2 && $num1<$num3) {
  
 echo "Los numeros al azar son: $num1 $num2 $num3 <br/>";
 echo "Presentamos los numeros de forma ordenada: $maximo  $medio  $minimo";
+
 ?>
+ 
