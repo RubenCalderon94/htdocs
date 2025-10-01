@@ -9,16 +9,4 @@ for ($i=1; $i <=100 ; $i++) {
 
 
 
-
-// 3 numeros al azar y que me diga cual de los 3 es mayor
-
-for ($i=1; $i <=3; $i++) { 
-    $num= rand(1,50);
-    if ($num > $num ) {
-        echo "EL numero mayor es: $num <br/>";
-    }    
-}
-
-
-
 ?>
