@@ -1,66 +1,46 @@
-<?php  
+<?php
 /*
-Introducir un numero al azar del 1 al 7 y que me diga el dia de la semana que es, 
-y luego del 1 al 12 y que me diga el dia del mes
+6.Dia de la semana
 */
 
-$diaMes=rand(1,12);
+$diaSemana=rand(1,7);
 
-switch ($ndiaSemanaum1) {
+switch ($diaSemana) {
     case 1:
-        echo "$diaMes; El dia de la semana es Enero";
+        echo "$diaSemana; El dia de la semana es Lunes";
         break;
 
     case 2:
-        echo "$diaMes; El dia de la semana es Febrero";
+        echo "$diaSemana; El dia de la semana es Martes";
         break;
 
     case 3:
-        echo "$diaMes; El dia de la semana es Marzo";
-        break;    
+        echo "$diaSemana; El dia de la semana es Miercoles";
+        break;
 
     case 4:
-        echo "$diaMes; El dia de la semana es Abril";
-        break;   
+        echo "$diaSemana; El dia de la semana es Jueves";
+        break;
 
     case 5:
-        echo "$diaMes; El dia de la semana es Mayo";
+        echo "$diaSemana; El dia de la semana es Viernes";
         break;
 
     case 6:
-        echo "$diaMes; El dia de la semana es Junio";
+        echo "$diaSemana; El dia de la semana es Sabado";
         break;
 
     case 7:
-        echo "$diaMes;El dia de la semana es Julio";
+        echo "$diaSemana;El dia de la semana es Domingo";
         break;
-        
-    case 8:
-        echo "$diaMes;El dia de la semana es Agosto";
-        break;
-
-    case 9:
-        echo "$diaMes;El dia de la semana es Septiembre";
-        break;
-    
-    case 10:
-        echo "$diaMes;El dia de la semana es Octubre";
-        break;    
-    
-    case 11:
-        echo "$diaMes;El dia de la semana es Noviembre";
-        break;    
-
-    case 12:
-        echo "$diaMes;El dia de la semana es Diciembre";
-        break;    
 
     default:
         echo "Error en la entrada de datos";
         break;
+        
 }
 
-
+// Dia del mes igual pero 12 case
 
 
 ?>

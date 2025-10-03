@@ -1,45 +1,14 @@
 <?php
-//Introducir tres numeros aleatorios y presentarlos de forma ordenada
+//4.- Factorial de un numero introducido al azar
 
+$factorial=1;//Hay que inicializar en 1, porque en 0, una multiplicacion 0x0 es 0.
 
-$num1=rand(1,10);
-$num2=rand(1,10);
-$num3=rand(1,10);
-$maximo=0;
-$medio=0;
-$minimo=0;
+$num=rand(1,10);
 
-
-//MAXIMO
-if ($num1>$num2 && $num1>$num3) {
-    $maximo=$num1;
-} elseif ($num2>$num1 && $num2>$num3) {
-    $maximo=$num2;
-} else {
-    $maximo=$num3;
+for ($i=1; $i <=$num; $i++) { 
+    $factorial *= $i;
 }
+  echo"El factorial del numero $num es: $factorial";
 
-//MINIMO
-if ($num1<$num2 && $num1<$num3) {
-    $minimo=$num1;
-} elseif ($num2<$num1 && $num2<$num3) {
-    $minimo=$num2;
-} else{
-    $minimo=$num3;
-}
-
-//MEDIO
-if ($num1>$num2 && $num1<$num3) {
-    $medio=$num1;
-} elseif ($num2>$num1 && $num2<$num3) {
-    $medio=$num2;
-} else{
-    $medio=$num3;
-}
-
- 
-echo "Los numeros al azar son: $num1 $num2 $num3 <br/>";
-echo "Presentamos los numeros de forma ordenada: $maximo  $medio  $minimo";
 
 ?>
- 
