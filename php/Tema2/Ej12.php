@@ -31,4 +31,6 @@ for ($i=1; $i <count($arrayImpares) ; $i++) {
     echo "Los numeros IMPARES son $arrayImpares[$i] <br/>";
 }
 
+
+
 ?>
