@@ -16,19 +16,13 @@ $array = array();
 
 for ($i=0; $i <count($arrayNum) ; $i++) { //count para saber longuitud de cada array
     array_push($array,$arrayNum[$i]);//Añadimos pero hay que poner valor de la $i para que añada cada valor, no el array completo cada array
-}
-
-for ($i=0; $i <count($arrayLetras) ; $i++) { //count para saber longuitud de cada array
-    array_push($array,$arrayLetras[$i]);//Añadimos pero hay que poner valor de la $i para que añada cada valor, no el array completo cada array
-}
-
-
-foreach ($array as $valorArray) {
-    if ($valorArray == ) {
-        # code...
+    if ($arrayLetras[$i]) {//Al ser recorrido por el for, cuando pasa por este if, añade la posicion sucesivamente, por ejemplo
+        //viene del for, añade la primera posicion de la (i) en $arrayNum y despues igual pero en el $arrayLetras 
+        array_push($array,$arrayLetras[$i]);
     }
-    echo "Valor del array: " . $valorArray . "<br>";
 }
+
+print_r($array);
 
 
 
