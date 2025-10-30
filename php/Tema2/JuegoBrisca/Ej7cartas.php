@@ -62,7 +62,7 @@ foreach ($mano as $carta) { //En tu caso, $mano es un array de arrays, cada cart
     echo '<div style="
         display: inline-block; 
         text-align: center; 
-        margin: 25px; 
+        margin: 15px; 
         width: 50%; 
         max-width: 100px;
     ">';
